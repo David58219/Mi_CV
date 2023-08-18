@@ -28,11 +28,18 @@ header {
     margin: 0;
     
 }
+hr {
+    height: 10px;
+    background-color: black;
+  }
 
 /* Cuerpo de Curriculum */
 .cuerpo {
     columns: 100px 2;
     margin: 90px;
+    align-content: center;
+    padding-left: 10%;
+    border-top: 5px;
 }
 
 .subtitulo {
@@ -44,6 +51,7 @@ header {
     border-style: solid;
     border-width: 3px;
     border-color: rgb(164, 138, 125);
+    padding-top: 15px;
 }
 .subtitulo1 {
     width: 270px;
@@ -54,6 +62,7 @@ header {
     border-style: solid;
     border-width: 3px;
     border-color: rgb(164, 138, 125);
+    padding-top: 25px;
 }
 
 .contenido {
